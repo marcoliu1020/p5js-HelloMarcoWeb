@@ -1,0 +1,39 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  background-color: powderblue;
+  color: rgb(206, 22, 22);
+}
+
+h2 {
+    background-color: powderblue;
+    font-size: 50px;
+    color: rgb(51, 24, 114);
+    
+    /* 讓背景顏色和文字寬度一樣 
+       如果打開後，文字將無法置中
+    */
+    display: inline-block;
+}
+
+#myBackground {
+  border: none;
+
+  /* vw: 螢幕寬
+       vh: 螢幕高 
+    */
+  width: 100vw;
+  height: 100vh;
+
+  /* 絕對位置 */
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  /* 放最底層 */
+  z-index: -1;
+}
