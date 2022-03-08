@@ -14,8 +14,9 @@ h2 {
     font-size: 50px;
     color: rgb(51, 24, 114);
     
-    /* 讓背景顏色和文字寬度一樣 
-       如果打開後，文字將無法置中
+    /* 
+      讓背景顏色和文字寬度一樣 
+      如果打開後，文字將無法置中
     */
     display: inline-block;
 }
@@ -23,9 +24,10 @@ h2 {
 #myBackground {
   border: none;
 
-  /* vw: 螢幕寬
-     vh: 螢幕高 
-    */
+  /* 
+    vw: 螢幕寬
+    vh: 螢幕高 
+  */
   width: 100vw;
   height: 100vh;
 
